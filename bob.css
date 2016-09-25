@@ -13,8 +13,8 @@ body {
 }
 
 p {
-  background-color: aliceblue;
-  border: 5px solid;
+  background-color: lightslategray;
+  border: 5px solid darkslategrey;
   margin-right: 50%;
   height: 45%;
   text-align: bottom ;
