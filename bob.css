@@ -30,7 +30,7 @@ p {
   width: 30%
 }
 
-#game-output {
+#outputbox {
   position:fixed;
   border: 2px solid darkslategray;
   background-color: slategray;
