@@ -1,6 +1,6 @@
 h1 {
-  border: 5px solid darkslategrey;
-  background-color: lightslategrey;
+  border: 5px solid darkslategray;
+  background-color: lightslategray;
   border-radius: 100px;
   text-align: center;
   margin-top: 50px;
@@ -14,7 +14,7 @@ body {
 
 p {
   background-color: lightslategray;
-  border: 5px solid darkslategrey;
+  border: 5px solid darkslategray;
   margin-right: 48%;
   height: 45%;
   text-align: center;
@@ -31,4 +31,6 @@ p {
 
 #game-output {
   position:fixed;
-  border: 
+  border: 2px solid darkslategray;
+  background-color: slategray;
+  border-radius: 50PX
