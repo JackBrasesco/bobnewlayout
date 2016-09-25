@@ -33,4 +33,6 @@ p {
   position:fixed;
   border: 2px solid darkslategray;
   background-color: slategray;
-  border-radius: 50PX
+  border-radius: 50px;
+  margin-left: 25%;
+}
