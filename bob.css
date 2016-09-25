@@ -1,6 +1,6 @@
 h1 {
-  border: 5px solid crimson;
-  background-color: darkred;
+  border: 5px solid darkslategrey;
+  background-color: lightslategrey;
   border-radius: 100px;
   text-align: center;
   margin-top: 50px;
@@ -9,4 +9,5 @@ h1 {
 }
 
 body {
-  bac
+  background-color: sandybrown
+}
