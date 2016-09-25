@@ -36,7 +36,7 @@ p {
   background-color: slategray;
   border-radius: 50px;
   margin-left: 6%;
-  margin-top: -5%;
+  margin-top: -65%;
   width: 40%;
   text-align: center;
   height: 28%;
@@ -61,6 +61,6 @@ h6 {
 #game-output {
   position: ;
   margin-left: 13%;
-  margin-top: -34%;
+  margin-top: -16%;
   width: 30%
 }
