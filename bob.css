@@ -60,4 +60,6 @@ h6 {
 
 #game-output {
   position: fixed;
-  margin-left: 7%
+  margin-left: 24%;
+  margin-top: -34%;
+}
