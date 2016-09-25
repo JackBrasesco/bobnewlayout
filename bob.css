@@ -15,3 +15,6 @@ body {
 p {
   background-color: aliceblue;
   border: 5px solid;
+  margin-right: 50%;
+  height: 45%;
+  text-align: bottom ;
