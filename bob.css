@@ -1,2 +1,5 @@
 h1 {
-  border: 5px solid red
+  border: 5px solid crimson;
+  background-color: darkred;
+  border-radius: 100px;
+  text-align: center
