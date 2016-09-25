@@ -52,8 +52,8 @@ p {
 }
 
 h6 {
-  margin-right:48%;
-  margin-top: 50%;
+  right:48%;
+  top: 95%;
 }
 
 #game-output {
