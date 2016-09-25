@@ -23,6 +23,7 @@ p {
 }
 
 #game-input {
-  margin-left: 18%;
-  margin-top: 25%;
+  margin-left: 11%;
+  margin-top: 35%;
   position:fixed;
+  width: 30%
