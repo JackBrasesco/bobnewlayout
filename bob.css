@@ -31,12 +31,12 @@ p {
 }
 
 #outputbox {
-  position:absolute;
+  position:;
   border: 2px solid darkslategray;
   background-color: slategray;
   border-radius: 50px;
   margin-left: 6%;
-  margin-top: -35%;
+  margin-top: -5%;
   width: 40%;
   text-align: center;
   height: 28%;
@@ -47,7 +47,7 @@ p {
   background-image: url("http://orig13.deviantart.net/d8a1/f/2015/315/1/4/generic_guy_doodle__65_by_khatake-d9gakl3.png");
   height: 75%;
   width: 40%;
-  position: absolute;
+  position: ;
   margin-left: 54%;
   margin-top: -42%;
   background-size: cover;
@@ -59,7 +59,7 @@ h6 {
 }
 
 #game-output {
-  position: absolute;
+  position: ;
   margin-left: 13%;
   margin-top: -34%;
   width: 30%
