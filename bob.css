@@ -60,8 +60,9 @@ h6 {
   width: 30%;
   z-index:10;
   color: black;
-  top: 50px;
-  left: 
+  top:100px;
+  bottom:50px;
+  left: 75px;
   
 }
 
