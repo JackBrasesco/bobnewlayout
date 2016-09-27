@@ -60,7 +60,9 @@ h6 {
   width: 30%;
   z-index:10;
   color: black;
-  position
+  position: relative;
+  top: 50px;
+  left: 75px;
 }
 
 #superstar {
