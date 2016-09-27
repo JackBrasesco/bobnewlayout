@@ -3,7 +3,7 @@ h1 {
   background-color: lightslategray;
   border-radius: 100px;
   text-align: center;
-  margin-top: 50px;
+/*  margin-top: 50px;*/
   margin-left: 25px;
   margin-right: 25px;
 }
@@ -24,9 +24,7 @@ p {
 
 
 #game-input {
-  margin-left: 11%;
-  margin-top: 35%;
-  width: 30%;
+  margin-left: 10px;
   display:inline;
 }
 
