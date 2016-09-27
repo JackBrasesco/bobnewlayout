@@ -61,3 +61,7 @@ h6 {
   margin-top: -16%;
   width: 30%
 }
+
+#superstar {
+  display: none;
+}
