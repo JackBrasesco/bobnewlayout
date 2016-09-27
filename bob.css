@@ -16,7 +16,6 @@ body {
 p {
   background-color: lightslategray;
   border: 5px solid darkslategray;
-  margin-right: 48%;
   height: 45%;
   text-align: center;
   color: cornsilk;
@@ -33,8 +32,6 @@ p {
   border: 2px solid darkslategray;
   background-color: slategray;
   border-radius: 50px;
-  margin-left: 6%;
-  margin-top: -65%;
   width: 40%;
   text-align: center;
   height: 28%;
@@ -49,13 +46,9 @@ p {
   background-size: cover;
 }
 h6 {
-  margin-right: 50%;
-  margin-top: 57%;
 }
 
 #game-output {
-  margin-left: 13%;
-  margin-top: -16%;
   width: 30%;
   z-index:10
 }
