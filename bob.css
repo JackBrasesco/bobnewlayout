@@ -36,10 +36,10 @@ body {
   width: 400px;
   text-align: center;
   height: 100px;
-  bottom: 50px;
+  top:65px;
+  right: 
   size: 15px;
-  position: relative
-    
+  position: relative;
 }
 
 #output-wrapper {
