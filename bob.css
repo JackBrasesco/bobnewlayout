@@ -38,6 +38,10 @@ p {
   size: 15px
 }
 
+#output-wrapper {
+  position: relative;
+}
+
 #bob {
   background-image: url("http://toonclips.com/600/cartoon-greedy-rich-business-man-holding-his-money-by-ron-leishman-3555.jpg");
   height: 300px;
