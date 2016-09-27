@@ -13,7 +13,7 @@ body {
   background-color: burlywood
 }
 
- {
+#output-wrapper {
   background-color: lightslategray;
   border: 5px solid darkslategray;
   height: 45%;
@@ -33,10 +33,13 @@ body {
   border: 2px solid darkslategray;
   background-color: slategray;
   border-radius: 50px;
-  width: 40%;
+  width: 400px;
   text-align: center;
-  height: 28%;
-  size: 15px
+  height: 100px;
+  bottom: 50px;
+  size: 15px;
+  position: relative
+    
 }
 
 #output-wrapper {
