@@ -26,7 +26,8 @@ p {
 #game-input {
   margin-left: 11%;
   margin-top: 35%;
-  width: 30%
+  width: 30%;
+  display:inline;
 }
 
 #outputbox {
