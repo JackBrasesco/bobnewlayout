@@ -59,8 +59,8 @@ h6 {
 }
 
 #game-output {
-  width: 100;
-  z-index:10;
+  width: 200;
+  z-index:1;
   color: black;
   position: relative;
   left: 50px;
