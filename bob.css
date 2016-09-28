@@ -24,20 +24,21 @@ body {
 
 
 #game-input {
-  left:40%;
+  left:110;
   position: absolute;
   bottom: 10px;
+  
 }
 
 #outputbox {
   border: 2px solid darkslategray;
   background-color: slategray;
   border-radius: 50px;
-  width: 400px;
+  width: 200px;
   text-align: center;
   height: 100px;
-  top:65px;
-  left: 100px;
+  top:50px;
+  left: 75px;
   size: 15px;
   position: relative;
 }
