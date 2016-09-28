@@ -14,6 +14,10 @@ console.log(gameOutput)
     var isAge = str.indexOf("old");
     var isGood = str.indexOf("good");
     var isHow = str.indexOf("how are");
+    var isBye = str.indexOf("bye");
+    if (isBye > -1) {
+      gameOutput.html("adios!")
+    }
     if (isHow > -1) {
       gameOutput.html("IM NOT GOOD")
     }
