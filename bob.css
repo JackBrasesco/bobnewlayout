@@ -59,12 +59,12 @@ h6 {
 }
 
 #game-output {
-  width: 30%;
+  width: 100;
   z-index:10;
   color: black;
   position: relative;
-  top: 50px;
-  left: 75px;
+  top: 25px;
+  left: 50px;
 }
 
 #superstar {
