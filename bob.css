@@ -17,6 +17,7 @@ body {
   background-color: lightslategray;
   border: 5px solid darkslategray;
   height: 45%;
+  width: 250px;
   text-align: center;
   color: cornsilk;
   line-height:inherit;
