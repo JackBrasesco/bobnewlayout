@@ -23,7 +23,7 @@ body {
   line-height:inherit;
 }
 #game-input {
-  left:25;
+  left:175;
   position: absolute;
   bottom: 10px;
   
@@ -37,7 +37,7 @@ body {
   text-align: center;
   height: 150px;
   top:50px;
-  left: 50px;
+  left: 75px;
   size: 15px;
   position: relative;
 }
