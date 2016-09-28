@@ -23,7 +23,7 @@ body {
   line-height:inherit;
 }
 #game-input {
-  left:86;
+  left:25;
   position: absolute;
   bottom: 10px;
   
@@ -33,9 +33,9 @@ body {
   border: 2px solid darkslategray;
   background-color: slategray;
   border-radius: 50px;
-  width: 200px;
+  width: 350px;
   text-align: center;
-  height: 100px;
+  height: 150px;
   top:50px;
   left: 50px;
   size: 15px;
@@ -43,6 +43,7 @@ body {
 }
 
 #output-wrapper {
+  width: 500;
   position: relative;
 }
 
@@ -58,7 +59,7 @@ h6 {
 }
 
 #game-output {
-  width: 200px;
+  width: 100;
   z-index:10;
   color: black;
   position: relative;
