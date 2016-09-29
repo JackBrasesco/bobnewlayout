@@ -17,15 +17,17 @@ console.log(gameOutput)
     var isBye = str.indexOf("bye");
     var CalculateFunction = str.indexOf("/calculate")
     if (CalculateFunction > -1) {
+      console.log("1")
       var nS = str.split("/calculate")[0];
       var isAdd = nS.indexOf("+");
-      if (isAdd > -1);
+      if (isAdd > -1); {
+      console.log("2")
         var plusSplit = nS.split("+");
         var firstNumber = parseFloat(plusSplit[0]);
         var secondNumber = parseFloat(plusSplit[1]);
-      var add = 
-      
-        
+      var add = (firstNumber + secondNumber);
+      gameOutput.html(add)
+      }
     }
     if (isBye > -1) {
       gameOutput.html("adios!")
