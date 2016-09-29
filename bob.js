@@ -20,7 +20,8 @@ console.log(gameOutput)
       var nS = str.split("/calculate")[0];
       var isAdd = nS.indexOf("+")
       if (isAdd > -1)
-        var plusSplit = n
+        var plusSplit = nS.split("+")
+        
     }
     if (isBye > -1) {
       gameOutput.html("adios!")
