@@ -21,6 +21,8 @@ console.log(gameOutput)
       var isAdd = nS.indexOf("+")
       if (isAdd > -1)
         var plusSplit = nS.split("+")
+        var firstNumber = plusSplit[0]
+        var secondNumber 
         
     }
     if (isBye > -1) {
