@@ -17,7 +17,7 @@ console.log(gameOutput)
     var isBye = str.indexOf("bye");
     var CalculateFunction = str.indexOf("/calculate")
     if (CalculateFunction > -1) {
-      
+      var nS = str.split("/calculate")[0];
     }
     if (isBye > -1) {
       gameOutput.html("adios!")
