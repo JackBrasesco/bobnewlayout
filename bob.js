@@ -18,7 +18,7 @@ console.log(gameOutput)
     var CalculateFunction = str.indexOf("/calculate")
     if (CalculateFunction > -1) {
       var nS = str.split("/calculate")[0];
-      
+      var isAdd = nS.indexOf("+")
     }
     if (isBye > -1) {
       gameOutput.html("adios!")
