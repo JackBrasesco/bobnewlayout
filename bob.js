@@ -19,10 +19,10 @@ console.log(gameOutput)
     if (CalculateFunction > -1) {
       var nS = str.split("/calculate")[1];
       var isAdd = nS.indexOf("+");
+      var isTimes 
       if (isAdd > -1); {
       console.log("2")
         var plusSplit = nS.split("+");
-//        gameOutput.html(plusSplit[0])
         var firstNumber = parseFloat(plusSplit[0]);
         var secondNumber = parseFloat(plusSplit[1]);
       var add = (firstNumber + secondNumber);
