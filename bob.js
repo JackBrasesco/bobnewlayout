@@ -22,12 +22,13 @@ console.log(gameOutput)
       if (isAdd > -1); {
       console.log("2")
         var plusSplit = nS.split("+");
+        gameOutput.html(String(plusSplit))
         var firstNumber = parseFloat(plusSplit[0]);
         var secondNumber = parseFloat(plusSplit[1]);
       var add = (firstNumber + secondNumber);
         var addFinal = String(add);
         console.log("3")
-      gameOutput.html(addFinal)
+//      gameOutput.html(addFinal)
       }
     }
     if (isBye > -1) {
