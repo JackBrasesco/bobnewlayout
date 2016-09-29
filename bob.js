@@ -22,13 +22,13 @@ console.log(gameOutput)
       var isTimes = nS.indexOf("x")
       if (isTimes > -1); {
         console.log("2")
-        var plusSplit = nS.split("+");
-        var firstNumber = parseFloat(plusSplit[0]);
-        var secondNumber = parseFloat(plusSplit[1]);
-        var add = (firstNumber + secondNumber);
-        var addFinal = String(add);
+        var timesSplit = nS.split("+");
+        var oneNumber = parseFloat(plusSplit[0]);
+        var twoNumber = parseFloat(pluSplit[1]);
+        var multiply = (oneNumber * twoNumber);
+        var multiplyFinal = String(multiply);
         console.log("3")
-        gameOutput.html(addFinal)
+        gameOutput.html(multiplyFinal)
       }
       if (isAdd > -1); {
       console.log("2")
