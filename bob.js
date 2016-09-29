@@ -26,7 +26,9 @@ console.log(gameOutput)
         var firstNumber = parseFloat(plusSplit[0]);
         var secondNumber = parseFloat(plusSplit[1]);
       var add = (firstNumber + secondNumber);
-      gameOutput.html(add)
+        var addFinal = String(add);
+        console.log("3")
+      gameOutput.html(addFinal)
       }
     }
     if (isBye > -1) {
