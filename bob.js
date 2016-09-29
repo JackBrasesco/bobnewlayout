@@ -15,6 +15,7 @@ console.log(gameOutput)
     var isGood = str.indexOf("good");
     var isHow = str.indexOf("how are");
     var isBye = str.indexOf("bye");
+    var CalculateFuction = str.indexOf("Calculate")
     if (isBye > -1) {
       gameOutput.html("adios!")
     }
