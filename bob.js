@@ -18,11 +18,13 @@ console.log(gameOutput)
     var CalculateFunction = str.indexOf("/calculate")
     if (CalculateFunction > -1) {
       var nS = str.split("/calculate")[0];
-      var isAdd = nS.indexOf("+")
-      if (isAdd > -1)
-        var plusSplit = nS.split("+")
-        var firstNumber = plusSplit[0]
-        var secondNumber 
+      var isAdd = nS.indexOf("+");
+      if (isAdd > -1);
+        var plusSplit = nS.split("+");
+        var firstNumber = parseFloat(plusSplit[0]);
+        var secondNumber = parseFloat(plusSplit[1]);
+      var add = 
+      
         
     }
     if (isBye > -1) {
