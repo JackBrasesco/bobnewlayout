@@ -12,7 +12,7 @@ function getWikiIntro(title, processor) {
         var pageKeys = Object.keys(pages);
         var text = pages[pageKeys[0]].extract;          
         var processed = processor(text);
-        $(".text-display").text(processed);
+        $("#game-output").text(processed);
       }                
     }
   })
@@ -33,6 +33,8 @@ console.log(gameOutput)
     var isHow = str.indexOf("how are");
     var isBye = str.indexOf("bye");
     var CalculateFunction = str.indexOf("/calculate")
+    var GoogleFunction = str.indexOf("/google")
+    if (
     if (CalculateFunction > -1) {
       var nS = str.split("/calculate")[1];
       var isAdd = nS.indexOf("+");
