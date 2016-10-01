@@ -35,8 +35,9 @@ console.log(gameOutput)
     var CalculateFunction = str.indexOf("/calculate")
     var GoogleFunction = str.indexOf("/google")
     if (GoogleFunction > -1) {
-      var title = str.split("/google"){[1];
-                                  
+      var title = str.split("/google")[1];
+      getWikiIntro()
+    }
     if (CalculateFunction > -1) {
       var nS = str.split("/calculate")[1];
       var isAdd = nS.indexOf("+");
