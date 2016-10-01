@@ -38,9 +38,7 @@ console.log(gameOutput)
     if (GoogleFunction > -1) {
       var title = str.split("/google")[1];
       getWikiIntro(title, function(text) {
-
         gameOutput.html(text)
-
       })
 
     }
