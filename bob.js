@@ -1,6 +1,7 @@
 var gameInput = $("#game-input");
 var gameOutput  = $("#game-output");
 function getWikiIntro(title, processor) {
+  console.log("hello")
   $.ajax({
     method: "GET",
     url: "https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exlimit=max&explaintext&exintro&titles=" + title,    
@@ -36,7 +37,12 @@ console.log(gameOutput)
     var GoogleFunction = str.indexOf("/google")
     if (GoogleFunction > -1) {
       var title = str.split("/google")[1];
-      getWikiIntro()
+      getWikiIntro(title, function(text) {
+
+        gameOutput.html(text)
+
+      })
+
     }
     if (CalculateFunction > -1) {
       var nS = str.split("/calculate")[1];
