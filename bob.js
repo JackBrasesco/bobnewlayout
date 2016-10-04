@@ -41,7 +41,7 @@ console.log(gameOutput)
     if (ClaimFunction > -1) {
       var lB = str.split("/claim")[1]
       var saveThis = lB
-      function storeV
+      storeValue("leadervalue",saveThis)
     }
     if (CalculateFunction > -1) {
       var nS = str.split("/calculate")[1];
