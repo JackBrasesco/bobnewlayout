@@ -16,8 +16,7 @@ storeValue("jack", 1)
 onNewValue("jack", function(newValue) {
   console.log(newValue)
 })
-storeValue("jack
-
+storeValue("jack", 2)
 
 function storeValue(name, value) {	
   var obj = {}

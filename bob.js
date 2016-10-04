@@ -19,6 +19,8 @@ function getWikiIntro(title, processor) {
     }
   })
 }
+
+on
 gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
 console.log(gameOutput)
@@ -42,6 +44,7 @@ console.log(gameOutput)
       var lB = str.split("/claim")[1]
       var saveThis = lB
       storeValue("leadervalue",saveThis)
+      
     }
     if (CalculateFunction > -1) {
       var nS = str.split("/calculate")[1];
