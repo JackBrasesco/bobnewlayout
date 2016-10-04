@@ -38,6 +38,7 @@ console.log(gameOutput)
     var GoogleFunction = str.indexOf("/google")
     var ClaimFunction = str.indexOf("/claim")
     if (ClaimFunction > -1) {
+      
     if (GoogleFunction > -1) {
       var title = str.split("/google")[1];
       getWikiIntro(title, function(text) {
