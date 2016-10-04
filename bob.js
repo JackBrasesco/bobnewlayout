@@ -20,7 +20,8 @@ function getWikiIntro(title, processor) {
   })
 }
 
-on
+onNewValue("leadervalue",function(leaderoutput){) 
+
 gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
 console.log(gameOutput)
