@@ -7,20 +7,12 @@ gameInput.keydown(function(e) {
     console.log("Hi")
     var valueToSave = gameInput.val();
     storeValue("jacksVariable", valueToSave);
-    gameInput.val("")
   }
 })
 
 onNewValue("jacksVariable", function(value) {
-  $("#value-output").html(value)
+  gameOutput.html(value)
 })
-if (GoogleFunction > -1) {
-  var title = str.split("/google")[1];
-  getWikiIntro(title, function(text) {
-    gameOutput.html(text)
-  })
-
-}
 
 function getWikiIntro(title, processor) {
   console.log("hello")
