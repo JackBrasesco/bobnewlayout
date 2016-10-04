@@ -34,7 +34,7 @@ console.log(gameOutput)
     var isGood = str.indexOf("good");
     var isHow = str.indexOf("how are");
     var isBye = str.indexOf("bye");
-    var isWhy = str.indexOf("
+    var isWhy = str.indexOf("why");
     var CalculateFunction = str.indexOf("/calculate")
     var GoogleFunction = str.indexOf("/google")
     var ClaimFunction = str.indexOf("/claim")
@@ -64,6 +64,9 @@ console.log(gameOutput)
         console.log("3")
       gameOutput.html(addFinal)
       }
+    }
+    if (isWhy > -1) {
+      gameOutput.html("Thats just the way it is")
     }
     if (isBye > -1) {
       gameOutput.html("adios!")
