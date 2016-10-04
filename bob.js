@@ -1,6 +1,29 @@
 var gameInput = $("#game-input");
 var gameOutput  = $("#game-output");
 var turfWar = $("#turfwar");
+
+var turfinput = $("#turfwar")
+
+turfinput.keydown(function(e) {	
+  if (e.keyCode == "13") {
+    console.log("Hi")
+    var valueToSave = turfinput.val();
+    storeValue("jacksVariable", valueToSave);
+    turfinput.val("")
+  }
+})
+
+onNewValue("jacksVariable", function(value) {
+  $("#value-output").html(value)
+})
+if (GoogleFunction > -1) {
+  var title = str.split("/google")[1];
+  getWikiIntro(title, function(text) {
+    gameOutput.html(text)
+  })
+
+}
+
 function getWikiIntro(title, processor) {
   console.log("hello")
   $.ajax({
@@ -38,26 +61,6 @@ console.log(gameOutput)
     var GoogleFunction = str.indexOf("/google")
     var ClaimFunction = str.indexOf("/claim")
     if (ClaimFunction > -1) {
-      var turfinput = $("#turfwar")
-
-      turfinput.keydown(function(e) {	
-        if (e.keyCode == "13") {
-          console.log("Hi")
-          var valueToSave = turfinput.val();
-          storeValue("jacksVariable", valueToSave);
-          turfinput.val("")
-        }
-      })
-
-      onNewValue("jacksVariable", function(value) {
-        $("#value-output").html(value)
-      })
-    if (GoogleFunction > -1) {
-      var title = str.split("/google")[1];
-      getWikiIntro(title, function(text) {
-        gameOutput.html(text)
-      })
-
     }
     if (CalculateFunction > -1) {
       var nS = str.split("/calculate")[1];
