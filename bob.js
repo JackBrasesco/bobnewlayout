@@ -2,14 +2,12 @@ var gameInput = $("#game-input");
 var gameOutput  = $("#game-output");
 var turfWar = $("#turfwar");
 
-var turfinput = $("#turfwar")
-
-turfinput.keydown(function(e) {	
+gameInput.keydown(function(e) {	
   if (e.keyCode == "13") {
     console.log("Hi")
-    var valueToSave = turfinput.val();
+    var valueToSave = gameInput.val();
     storeValue("jacksVariable", valueToSave);
-    turfinput.val("")
+    gameInput.val("")
   }
 })
 
