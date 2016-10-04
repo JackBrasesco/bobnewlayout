@@ -36,6 +36,8 @@ console.log(gameOutput)
     var isBye = str.indexOf("bye");
     var CalculateFunction = str.indexOf("/calculate")
     var GoogleFunction = str.indexOf("/google")
+    var ClaimFunction = str.indexOf("/claim")
+    if (ClaimFunction > -1) {
     if (GoogleFunction > -1) {
       var title = str.split("/google")[1];
       getWikiIntro(title, function(text) {
