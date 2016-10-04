@@ -10,8 +10,13 @@ var store = firebase.database().ref("challenge-2")
 
 var jack = 1
 console.log(jack)
+jack = 2
 
 storeValue("jack", 1)
+onNewValue("jack", function(newValue) {
+  console.log(newValue)
+})
+storeValue("jack
 
 
 function storeValue(name, value) {	
