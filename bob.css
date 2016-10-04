@@ -75,7 +75,8 @@ h6 {
 }
 
 #turfwar {
-  height: 250px;
+  height: 10px;
   width: 250px;
+  background-color: slategrey;
 }
     
