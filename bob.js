@@ -1,5 +1,6 @@
 var gameInput = $("#game-input");
 var gameOutput  = $("#game-output");
+var turfWar = $("#turfwar");
 function getWikiIntro(title, processor) {
   console.log("hello")
   $.ajax({
