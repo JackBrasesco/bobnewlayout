@@ -19,9 +19,8 @@ function getWikiIntro(title, processor) {
     }
   })
 }
-
-onNewValue("leadervalue",function(leaderoutput){
-gameOutput.html(leaderoutput)}) 
+console.log("hi")
+onNewValue("leadervalue",function(leaderoutput){console.log(leaderoutput)}) 
 
 gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
@@ -48,7 +47,6 @@ console.log(gameOutput)
       var lB = str.split("/claim")[1]
       var saveThis = lB
       storeValue("leadervalue",saveThis)
-      
     }
     if (CalculateFunction > -1) {
       var nS = str.split("/calculate")[1];
