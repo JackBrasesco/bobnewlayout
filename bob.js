@@ -39,6 +39,7 @@ console.log(gameOutput)
     var GoogleFunction = str.indexOf("/google")
     var ClaimFunction = str.indexOf("/claim")
     if (ClaimFunction > -1) {
+      var lB = str.split("/claim"
     }
     if (CalculateFunction > -1) {
       var nS = str.split("/calculate")[1];
