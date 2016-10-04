@@ -1,19 +1,6 @@
 var gameInput = $("#game-input");
 var gameOutput  = $("#game-output");
 var turfWar = $("#turfwar");
-
-gameInput.keydown(function(e) {	
-  if (e.keyCode == "13") {
-    console.log("Hi")
-    var valueToSave = gameInput.val();
-    storeValue("jacksVariable", valueToSave);
-  }
-})
-
-onNewValue("jacksVariable", function(value) {
-  gameOutput.html(value)
-})
-
 function getWikiIntro(title, processor) {
   console.log("hello")
   $.ajax({
@@ -47,6 +34,7 @@ console.log(gameOutput)
     var isGood = str.indexOf("good");
     var isHow = str.indexOf("how are");
     var isBye = str.indexOf("bye");
+    var isWhy = str.indexOf("
     var CalculateFunction = str.indexOf("/calculate")
     var GoogleFunction = str.indexOf("/google")
     var ClaimFunction = str.indexOf("/claim")
