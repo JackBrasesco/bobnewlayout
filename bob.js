@@ -38,7 +38,20 @@ console.log(gameOutput)
     var GoogleFunction = str.indexOf("/google")
     var ClaimFunction = str.indexOf("/claim")
     if (ClaimFunction > -1) {
-      
+      var turfinput = $("#turfwar")
+
+      turfinput.keydown(function(e) {	
+        if (e.keyCode == "13") {
+          console.log("Hi")
+          var valueToSave = turfinput.val();
+          storeValue("jacksVariable", valueToSave);
+          turfinput.val("")
+        }
+      })
+
+      onNewValue("jacksVariable", function(value) {
+        $("#value-output").html(value)
+      })
     if (GoogleFunction > -1) {
       var title = str.split("/google")[1];
       getWikiIntro(title, function(text) {
