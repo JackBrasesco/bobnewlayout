@@ -3,7 +3,7 @@ h1 {
   background-color: lightslategray;
   border-radius: 100px;
   text-align: center;
-/*  margin-top: 50px;*/
+  /*  margin-top: 50px;*/
   margin-left: 25px;
   margin-right: 25px;
   display: block;
@@ -16,7 +16,7 @@ body {
 #output-wrapper {
   background-color: lightslategray;
   border: 5px solid darkslategray;
-  height: 45%;
+  height: 500px;
   width: 300px;
   text-align: center;
   color: cornsilk;
@@ -26,7 +26,7 @@ body {
   left:175;
   position: absolute;
   bottom: 10px;
-  
+
 }
 
 #outputbox {
@@ -35,7 +35,7 @@ body {
   border-radius: 50px;
   width: 350px;
   text-align: center;
-  height: 150px;
+  height: 400px;
   top:50px;
   left: 75px;
   size: 15px;
@@ -74,6 +74,12 @@ h6 {
   display:inline-block;
 }
 
+#blah {
+  height:200px;
+  width: 200px;
+  z-index: -1;
+}
+
 #turfwar {
   height: 100px;
   width: 1000px;
@@ -81,4 +87,3 @@ h6 {
   border: 3px solid darkslategray;
   text-align: center;
 }
-    
