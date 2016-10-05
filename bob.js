@@ -62,6 +62,7 @@ gameInput.keydown(function(keydownEvent) {
       var isTimes = nS.indexOf("x");
       var isMinus = nS.indexOf("-");
       var isDivide = nS.indexOf("/");
+      var isFactorial =nS.indexOf("!");
       if (isTimes > -1) {
         var timesSplit = nS.split("x");
         var oneNumber = parseFloat(timesSplit[0]);
