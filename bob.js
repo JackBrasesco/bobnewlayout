@@ -186,8 +186,10 @@ function faccounter() {
   facinc = facinc + 1
 }
 
-var facnumbers() {
-  facinc = 
+var facSetNumbers = 0
+function facnumbers() {
+  facinc = 0
+}
 
 
 
