@@ -182,7 +182,11 @@ function counter() {
 } 
 
 var facinc
-function facinc
+function faccounter() {
+  facinc = facinc + 1
+}
+
+var facnumbers() {
 
 
 
