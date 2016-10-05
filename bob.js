@@ -1,6 +1,7 @@
 var gameInput = $("#game-input");
 var gameOutput  = $("#game-output");
-var turfWar = $("#turfwar");
+var warTurf = $("#turfwar");
+
 function getWikiIntro(title, processor) {
   console.log("hello")
   $.ajax({
@@ -19,12 +20,12 @@ function getWikiIntro(title, processor) {
     }
   })
 }
-console.log("hi")
-onNewValue("leadervalue",function(leaderoutput){console.log(leaderoutput)}) 
+onNewValue("leadervalue",function(leaderoutput){warTurf.html(leaderoutput)}) 
+
 
 gameInput.keydown(function(keydownEvent) {
   // the key code for enter is 13
-console.log(gameOutput)
+  console.log(gameOutput)
   if (keydownEvent.keyCode == 13) {  
     parseText(gameInput.val()); 
     gameInput.val();
@@ -37,44 +38,72 @@ console.log(gameOutput)
     var isGood = str.indexOf("good");
     var isHow = str.indexOf("how are");
     var isBye = str.indexOf("bye");
-    var isWhy = str.indexOf("why");
+    var isBob = str.indexOf("bob");
+    var isWorking = str.indexOf("working");
     var CalculateFunction = str.indexOf("/calculate")
     var GoogleFunction = str.indexOf("/google")
-    var ClaimFunction = str.indexOf("/claim")
-    console.log("hello")
+    var ClaimFunction = str.indexOf("/say")
     if (ClaimFunction > -1) {
-      console.log("hello")
-      var lB = str.split("/claim")[1]
-      var saveThis = lB
-      storeValue("leadervalue",saveThis)
+      var thisvalue = str.split("/say")[1]
+      storeValue("leadervalue", thisvalue);
+    }
+    if (GoogleFunction > -1) {
+      var title = str.split("/google")[1];
+      getWikiIntro(title, function(text) {
+
+        gameOutput.html(text)
+
+      })
+
     }
     if (CalculateFunction > -1) {
       var nS = str.split("/calculate")[1];
       var isAdd = nS.indexOf("+");
-      var isTimes = nS.indexOf("x")
-      if (isTimes > -1); {
-        console.log("2")
+      var isTimes = nS.indexOf("x");
+      var isMinus = nS.indexOf("-");
+      var isDivide = nS.indexOf("/");
+      if (isTimes > -1) {
         var timesSplit = nS.split("x");
         var oneNumber = parseFloat(timesSplit[0]);
         var twoNumber = parseFloat(timesSplit[1]);
-        var multiply = (oneNumber * twoNumber);
-        var multiplyFinal = String(multiply);
-        console.log("3")
+        var multiply = (oneNumber * twoNumber);        
+        console.log(multiply);
+        var multiplyFinal = String(multiply);        
         gameOutput.html(multiplyFinal)
       }
-      if (isAdd > -1); {
-      console.log("2")
+      if (isMinus > -1) {        
+        var minusSplit = nS.split("-");
+        var fNumber = parseInt(minusSplit[0]);
+        var sNumber = parseInt(minusSplit[1]);
+        var subtract = (fNumber - sNumber);
+        var subtractFinal = String(subtract);
+        console.log("3")
+        gameOutput.html(subtractFinal)
+      }
+      if (isAdd > -1) {         
         var plusSplit = nS.split("+");
         var firstNumber = parseFloat(plusSplit[0]);
         var secondNumber = parseFloat(plusSplit[1]);
-      var add = (firstNumber + secondNumber);
+        var add = (firstNumber + secondNumber);
         var addFinal = String(add);
         console.log("3")
-      gameOutput.html(addFinal)
+        gameOutput.html(addFinal)
+      }
+      if (isDivide > -1) {         
+        var divideSplit = nS.split("/");
+        var firstoneNumber = parseFloat(divideSplit[0]);
+        var secondtwoNumber = parseFloat(divideSplit[1]);
+        var divide = (firstoneNumber / secondtwoNumber);
+        var divideFinal = String(divide);
+        console.log("3")
+        gameOutput.html(divideFinal)
       }
     }
-    if (isWhy > -1) {
-      gameOutput.html("Thats just the way it is")
+    if (isWorking > -1) {
+      gameOutput.html("yes")
+    }
+    if (isBob > -1) {
+      gameOutput.html("that is my name, don't wear it out")
     }
     if (isBye > -1) {
       gameOutput.html("adios!")
@@ -135,7 +164,7 @@ function parseText(text) {
           gameOutput.html(response);      
         } 
 
-  else {gameOutput.html("What was that? Type 'help' for a list of things you can ask me!");
+  else {gameOutput.html("That doesnt make any sense  idiot, type 'help' for a list of things that do make sense");
        }
 }
 

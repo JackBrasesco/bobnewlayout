@@ -1,4 +1,4 @@
-var firebaseConfig = {
+vvar firebaseConfig = {
   apiKey: "AIzaSyB4n3T-wB2G2UnIrMUU3hC7SqoXhPEb4L0",
   authDomain: "classadoo-dev.firebaseapp.com",
   databaseURL: "https://classadoo-dev.firebaseio.com"	
@@ -8,15 +8,6 @@ firebase.initializeApp(firebaseConfig);
 
 var store = firebase.database().ref("challenge-2")
 
-var jack = 1
-console.log(jack)
-jack = 2
-
-storeValue("jack", 1)
-onNewValue("jack", function(newValue) {
-  console.log(newValue)
-})
-storeValue("jack", 2)
 
 function storeValue(name, value) {	
   var obj = {}
