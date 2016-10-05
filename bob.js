@@ -181,15 +181,5 @@ function counter() {
   inc = inc + 1;
 } 
 
-var facinc
-function faccounter() {
-  facinc = facinc + 1
-}
-
-var facSetNumbers = 0
-function facnumbers() {
-  facinc = 0
-}
-
 
 
