@@ -65,7 +65,7 @@ gameInput.keydown(function(keydownEvent) {
       var isFactorial = nS.indexOf("!");
       if (isFactorial > -1) {
         var facNumber = nS.split("!")[0]
-        var int
+        var facVal = parseInt(facNumber)
         var facNext = 
       }
       if (isTimes > -1) {
