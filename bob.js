@@ -66,7 +66,6 @@ gameInput.keydown(function(keydownEvent) {
       if (isFactorial > -1) {
         var facNumber = nS.split("!")[0]
         var facVal = parseInt(facNumber)
-        var
         var facNext = facVal.append
       }
       if (isTimes > -1) {
@@ -181,6 +180,9 @@ var inc = 0
 function counter() {
   inc = inc + 1;
 } 
+
+var facinc
+function facinc
 
 
 
