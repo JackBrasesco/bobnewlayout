@@ -1,1 +1,3 @@
-$("#signin").click
+$("#signin").click(function() {
+  gameOutput.html("hi")
+}
