@@ -89,5 +89,8 @@ h6 {
 }
 
 #signin {
-  color: lightsk
+  color: blue;
+  text-align: right;
+  margin-top: -30;
+  margin-right
 }
