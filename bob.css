@@ -107,5 +107,7 @@ h6 {
 }
 #signup {
   background-color: darkred;
-  align: center
+  position: relative;
+  left: 500;
+  top: 500
 }
