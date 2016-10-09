@@ -97,9 +97,10 @@ h6 {
   text-decoration: underline;
 }
 #sipage {
-  display:;
+  display:block;
   position: absolute;
-  width: 1000;
+  width: ;
   height: 1000;
   z-index: 1000000;
+  background-color: darkred
 }
