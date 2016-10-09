@@ -1,3 +1,1 @@
-function onclick() {
-  gameOutput.html("clicked!")
-}
+$("#signin").click
