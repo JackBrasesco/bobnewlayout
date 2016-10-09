@@ -118,10 +118,14 @@ h6 {
 }
 #siun {
   position: relative;
+  height: 30;
+  width: 200;
   left: -160;
   top: 250;
 }
 #sipw {
   position: relative;
+  height: 30;
+  width: 
   left: -295;
-  top:275
+  top: 325;
