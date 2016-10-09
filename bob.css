@@ -97,5 +97,8 @@ h6 {
   text-decoration: underline;
 }
 #sipage {
-  display:
+  display:;
+  width: 1000;
+  height: 1000;
+  z-index: 1;
 }
