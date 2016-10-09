@@ -1,4 +1,4 @@
 $("#signin").click(function() {
-  $("#sipage").css({display: "block"});
+  $(".siscreen").css({display: "block"});
   gameOutput.html("hi")
 })
