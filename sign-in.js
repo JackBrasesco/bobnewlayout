@@ -1,3 +1,3 @@
 function onclick() {
-  console.log("clicked!")
+  gameOutput.html("clicked!")
 }
