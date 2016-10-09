@@ -1,3 +1,3 @@
 $("#signin").click(function() {
-  $(.sicreen
+  $(".sicreen").css({display: "block"});
 })
