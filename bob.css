@@ -109,7 +109,9 @@ h6 {
   background-color: darkred;
   position: relative;
   left: 500;
-  top: 500
+  top: 500;
+  color: lightblue;
+  text-decoration: underline;
 }
 #silogo {
   position: relative;
