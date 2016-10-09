@@ -112,6 +112,7 @@ h6 {
   top: 500;
   color: lightblue;
   text-decoration: underline;
+  border: none;
 }
 #silogo {
   position: relative;
