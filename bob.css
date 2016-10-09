@@ -112,4 +112,7 @@ h6 {
   top: 500
 }
 #silogo {
-  
+  position: relative;
+  left: 150;
+  top: 75;
+}
